@@ -10,7 +10,7 @@
 	STYLESHEET INDEXING
 	|
 	|
-	|___ Default Styles
+	|___ ./default Styles
 	|	|
 	|	|___ variables
 	|	|___ mixins
@@ -68,14 +68,14 @@
 /**************************************
     Default Styles
 ***************************************/
-@import 'default/variables';
-@import 'default/mixins';
-@import 'default/reset';
-@import 'default/typography';
-@import 'default/extend';
-@import 'default/animations';
-@import 'default/shortcode';
-@import 'default/spacing';
+// @import url(./default/variables);
+// @import url(./default/mixins);
+// @import url(./default/reset);
+// @import url(./default/typography);
+// @import url(./default/extend);
+// @import url(./default/animations);
+// @import url(./default/shortcode);
+// @import url(./default/spacing);
 
 
 
@@ -83,20 +83,20 @@
     Header Styles
 ***************************************/
 
-@import 'header/header';
-@import 'header/mainmenu';
+// @import url(./header/header);
+// @import url(./header/mainmenu);
 
 
 /**************************************
     Inner Styles
 ***************************************/
 
-@import 'common/breadcrump';
-@import 'common/section-title';
-@import 'common/button';
-@import 'common/pagination';
-@import 'common/socialicon';
-@import 'common/footer';
+// @import url(common/breadcrump);
+// @import url(common/section-title);
+// @import url(common/button);
+// @import url(common/pagination);
+// @import url(common/socialicon);
+// @import url(common/footer);
 
 
 
@@ -104,22 +104,22 @@
     Elements Styles
 ***************************************/
 
-@import 'elements/portfolio';
-@import 'elements/service';
-@import 'elements/slider';
-@import 'elements/counterup';
-@import 'elements/testimonial';
-@import 'elements/brand';
-@import 'elements/team';
-@import 'elements/callto-action';
-@import 'elements/tab';
-@import 'elements/accordion';
-@import 'elements/list';
-@import 'elements/contact';
-@import 'elements/progress';
-@import 'elements/column';
-@import 'elements/404';
-@import 'elements/pricing';
+// @import url(elements/portfolio);
+// @import url(elements/service);
+// @import url(elements/slider);
+// @import url(elements/counterup);
+// @import url(elements/testimonial);
+// @import url(elements/brand);
+// @import url(elements/team);
+// @import url(elements/callto-action);
+// @import url(elements/tab);
+// @import url(elements/accordion);
+// @import url(elements/list);
+// @import url(elements/contact);
+// @import url(elements/progress);
+// @import url(elements/column);
+// @import url(elements/404);
+// @import url(elements/pricing);
 
 
 
@@ -127,8 +127,8 @@
     Blog Styles
 ***************************************/
 
-@import 'blog/blog';
-@import 'blog/blog-details';
+// @import url(blog/blog);
+// @import url(blog/blog-details);
 
 
 
@@ -136,8 +136,8 @@
     Template Styles
 ***************************************/
 
-@import 'template/about';
-@import 'template/portfolio-details';
-@import 'template/service-details';
-@import 'template/dark-version';
-@import 'template/preview';
+// @import url(template/about);
+// @import url(template/portfolio-details);
+// @import url(template/service-details);
+// @import url(template/dark-version);
+// @import url(template/preview);

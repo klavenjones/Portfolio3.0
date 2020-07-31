@@ -141,3 +141,151 @@
 @import 'template/service-details';
 @import 'template/dark-version';
 @import 'template/preview';
+
+
+
+
+
+/*********************************************************************************
+
+	Template Name: Trydo React Degital Agency Template
+	Note: This is style css.
+
+**********************************************************************************/
+
+/**************************************************************
+	
+	STYLESHEET INDEXING
+	|
+	|
+	|___ ./default Styles
+	|	|
+	|	|___ variables
+	|	|___ mixins
+	|	|___ reset
+	|	|___ typography
+	|	|___ extend
+	|	|___ animations
+	|	|___ shortcode
+	|	|___ spacing
+	|
+	|
+	|___Header Styles
+	|	|___ header
+	|	|___ mainmenu
+	|
+	|
+	|___Inner Styles
+	|	|___ breadcrump 
+	|	|___ section-title 
+	|	|___ button
+	|	|___ pagination
+	|	|___ socialicon
+	|	|___ footer
+	|
+	|___Elements Styles
+	|	|___ portfolio 
+	|	|___ service 
+	|	|___ slider 
+	|	|___ counterup 
+	|	|___ testimonial 
+	|	|___ brand 
+	|	|___ team 
+	|	|___ callto-action 
+	|	|___ tab 
+	|	|___ accordion 
+	|	|___ list 
+	|	|___ contact 
+	|
+	|___BLog Styles
+	|	|___ blog 
+	|	|___ blog-details 
+	|
+	|___Template Styles
+	|	|___ about 
+	|	|___ portfolio-details
+	|	|___ service-details
+	|	|___ preview
+	|
+	|
+	|___ END STYLESHEET INDEXING
+
+***************************************************************/
+
+
+/**************************************
+    Default Styles
+***************************************/
+//  @import url('default/variables');
+// @import url('default/mixins');
+// @import url('default/reset');
+// @import url('default/typography');
+// @import url('default/extend');
+// @import url('default/animations');
+// @import url('default/shortcode');
+// @import url('default/spacing');
+
+
+
+/**************************************
+    Header Styles
+***************************************/
+
+// @import url('header/header');
+// @import url('header/mainmenu');
+
+
+/**************************************
+    Inner Styles
+***************************************/
+
+// @import url('common/breadcrump');
+// @import url('common/section-title');
+// @import url('common/button');
+// @import url('common/pagination');
+// @import url('common/socialicon');
+// @import url('common/footer');
+
+
+
+/**************************************
+    Elements Styles
+***************************************/
+
+// @import url('elements/portfolio');
+// @import url('elements/service');
+// @import url('elements/slider');
+// @import url('elements/counterup');
+// @import url('elements/testimonial');
+// @import url('elements/brand');
+// @import url('elements/team');
+// @import url('elements/callto-action');
+// @import url('elements/tab');
+// @import url('elements/accordion');
+// @import url('elements/list');
+// @import url('elements/contact');
+// @import url('elements/progress');
+// @import url('elements/column');
+// @import url('elements/404');
+// @import url('elements/pricing');
+
+
+
+/**************************************
+    Blog Styles
+***************************************/
+
+// @import url('blog/blog');
+// @import url('blog/blog-details');
+
+
+
+/**************************************
+    Template Styles
+***************************************/
+
+// @import url('template/about');
+// @import url('template/portfolio-details');
+// @import url('template/service-details');
+// @import url('template/dark-version');
+// @import url('template/preview');
