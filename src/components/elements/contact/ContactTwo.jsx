@@ -11,7 +11,7 @@ class ContactTwo extends Component {
       rnMessage: '',
       sent: false
     }
-    console.log(process.env)
+
   }
 
   sendEmail = e => {

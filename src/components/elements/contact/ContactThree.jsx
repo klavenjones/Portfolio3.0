@@ -35,7 +35,6 @@ class ContactThree extends Component {
         response => {
           console.log('SUCCESS!', response.status, response.text)
           this.setState({ sent: true })
-          console.log(process.env)
         },
         err => {
           console.log('FAILED', err)

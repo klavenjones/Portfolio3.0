@@ -43,7 +43,7 @@ class PortfolioDetails extends Component {
       headline,
       nextProject
     } = this.props.location.details
-    console.log(description)
+
     return (
       <React.Fragment>
         <PageHelmet pageTitle="Portfolio Details" />
