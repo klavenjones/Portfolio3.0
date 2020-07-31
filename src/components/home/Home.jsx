@@ -57,7 +57,6 @@ const PortfolioLanding = () => {
                           <span> Web Designer.</span>
                           <span> Web Developer.</span>
                           <span> React Developer.</span>
-                          <span> Full-Stack Developer.</span>
                         </TextLoop>{' '}
                       </h1>
                       <h2>Based in NYC.</h2>
