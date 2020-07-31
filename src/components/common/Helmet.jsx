@@ -7,7 +7,7 @@ class PageHelmet extends Component {
       <React.Fragment>
         <Helmet>
           <title>
-            {this.props.pageTitle} || React Multipurpose Template{' '}
+            {this.props.pageTitle} {' '}
           </title>
           <meta
             name="description"
