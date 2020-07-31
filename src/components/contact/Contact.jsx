@@ -29,7 +29,9 @@ class Contact extends Component {
   render() {
     return (
       <React.Fragment>
-        <PageHelmet pageTitle="Contact" />
+        <PageHelmet
+          pageTitle={`Klaven Jones | Web Design and Development in NYC | Contact Me`}
+        />
 
         <Header
           headertransparent="header--transparent"

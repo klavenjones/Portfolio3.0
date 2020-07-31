@@ -46,7 +46,7 @@ class PortfolioDetails extends Component {
 
     return (
       <React.Fragment>
-        <PageHelmet pageTitle="Portfolio Details" />
+        <PageHelmet pageTitle={`Klaven Jones | Web Design and Development in NYC | ${title} Project`} />
 
         <HeaderTwo
           headertransparent="header--transparent"

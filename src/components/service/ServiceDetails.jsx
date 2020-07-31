@@ -23,7 +23,7 @@ class ServiceDetails extends Component {
     return (
       <React.Fragment>
         {/* Start Pagehelmet  */}
-        <PageHelmet pageTitle="Service Details" />
+        <PageHelmet pageTitle={`Klaven Jones | Web Design and Development in NYC | My Process`} />
         {/* End Pagehelmet  */}
 
         <HeaderTwo

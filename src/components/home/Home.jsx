@@ -29,7 +29,9 @@ const PortfolioLanding = () => {
 
   return (
     <div>
-      <Helmet pageTitle="Portfolio Landing" />
+      <Helmet
+        pageTitle={`Klaven Jones | Web Design and Development in NYC`}
+      />
 
       <Header homeLink="/" logo="symbol-dark" color="color-black" />
       {/* Start Slider Area   */}
