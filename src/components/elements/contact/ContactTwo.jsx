@@ -11,6 +11,7 @@ class ContactTwo extends Component {
       rnMessage: '',
       sent: false
     }
+    console.log(process.env)
   }
 
   sendEmail = e => {
@@ -22,7 +23,7 @@ class ContactTwo extends Component {
       rnSubject: this.state.rnSubject,
       rnMessage: this.state.rnMessage
     }
-
+ 
     emailjs
       .send(
         process.env.REACT_APP_EMAILJS_SERVICEID2,
