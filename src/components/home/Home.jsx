@@ -29,9 +29,7 @@ const PortfolioLanding = () => {
 
   return (
     <div>
-      <Helmet
-        pageTitle={`Klaven Jones | Web Design and Development in NYC`}
-      />
+      <Helmet pageTitle={`Klaven Jones | Web Design and Development in NYC`} />
 
       <Header homeLink="/" logo="symbol-dark" color="color-black" />
       {/* Start Slider Area   */}
@@ -53,15 +51,16 @@ const PortfolioLanding = () => {
                           </span>
                         : ''}
                       <h1 className="title">
-                        Hey, I’m Klaven,<br />
+                        Hey, I’m Klaven.<br />
                         <TextLoop>
-                          <span> JS Developer</span>
-                          <span> Web Designer</span>
-                          <span> Web Developer</span>
-                          <span> React Developer</span>
+                          <span> JS Developer.</span>
+                          <span> Web Designer.</span>
+                          <span> Web Developer.</span>
+                          <span> React Developer.</span>
+                          <span> Full-Stack Developer.</span>
                         </TextLoop>{' '}
                       </h1>
-                      <h2>based in NYC.</h2>
+                      <h2>Based in NYC.</h2>
                       {value.description
                         ? <p className="description">
                             {value.description}
