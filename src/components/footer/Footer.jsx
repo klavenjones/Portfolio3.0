@@ -26,7 +26,7 @@ class Footer extends Component {
                       Let's get <br /> to work
                     </h2>
                     <Link className="rn-button-style--2" to="/contact">
-                      <span>Contact Us</span>
+                      <span>Get In Touch</span>
                     </Link>
                   </div>
                 </div>
@@ -71,7 +71,11 @@ class Footer extends Component {
                           <ul className="social-share social-style--2 d-flex justify-content-start liststyle mt--15">
                             {SocialShare.map((val, i) =>
                               <li key={i}>
-                                <a href={`${val.link}`} target="_blank" rel="noopener noreferrer">
+                                <a
+                                  href={`${val.link}`}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
                                   {val.Social}
                                 </a>
                               </li>
